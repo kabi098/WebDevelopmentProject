@@ -56,9 +56,25 @@ nav ul li{
     border-radius: 20px;
     cursor: pointer;
 }
-.img{
-    height: 100px;
-    width: 150px;
-    margin: 5px;
 
+.electricityPageBody{
+    display: inline-block;
 }
+.itemOfElectricity img{
+    height: 200px;
+    width: 300px;
+}
+
+.itemOfElectricity { 
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+    
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  
