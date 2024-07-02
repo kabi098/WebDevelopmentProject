@@ -68,13 +68,27 @@ nav ul li{
 .itemOfElectricity { 
     display: inline-block;
     align-items: center;
+    text-align: center;
     margin: 20px;
+    padding-left: 15px;
     cursor: pointer;
     
   }
   .price {
-    color: grey;
+    color: rgb(114, 71, 71);
     font-size: 22px;
   }
 
+  .itemOfElectricity button {
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+  }
   
+  .itemOfElectricity button:hover {
+    opacity: 0.8;
+  }
