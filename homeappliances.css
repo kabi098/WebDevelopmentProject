@@ -1,0 +1,38 @@
+.homeAppliancesPageBody{
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.itemOfhomeAppliances img{
+    height: 200px;
+    width: 300px;
+}
+
+.itemOfhomeAppliances { 
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    
+  }
+  .price {
+    color: rgb(114, 71, 71);
+    font-size: 22px;
+  }
+
+  .itemOfhomeAppliances button {
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .itemOfhomeAppliances button:hover {
+    opacity: 0.8;
+  }

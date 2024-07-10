@@ -1,0 +1,54 @@
+
+
+.header {
+    background-color:orangered;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.cartPageBody {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#clearCart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#clearCart:hover {
+    background-color: darkred;
+}
+
+#buyCart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+#buyCart:hover {
+    background-color: darkred;
+}
+

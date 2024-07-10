@@ -14,7 +14,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 18px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 nav ul{
     width: 100%;
@@ -23,13 +25,19 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 8px 20px;
     color:white;
     cursor: pointer;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
 .header{
-    padding: 0;
+    padding: 50;
     border-color: black;
     background-color:orangered;
 }
@@ -47,48 +55,17 @@ nav ul li{
     cursor: pointer;
 }
 
-.cart{
+.login{
     width: 70px;
-    height: 40px;
+    text-align: center;
+    margin-left: 50px;
     padding: 5px 5px;
     margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.electricityPageBody{
-    display: inline-block;
-}
-.itemOfElectricity img{
-    height: 200px;
-    width: 300px;
-}
-
-.itemOfElectricity { 
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-    padding-left: 15px;
-    cursor: pointer;
-    
-  }
-  .price {
-    color: rgb(114, 71, 71);
-    font-size: 22px;
-  }
-
-  .itemOfElectricity button {
-    padding: 10px;
+    border-radius: 5px;
+    background: rgb(18, 8, 157);
+    border-color:black;
     color: white;
-    background-color: blueviolet;
-    text-align: center;
+    font-weight: 400;
     cursor: pointer;
-    width: 100%;
-    font-size: 20px;
-  }
-  
-  .itemOfElectricity button:hover {
-    opacity: 0.8;
-  }
+}
+
